@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #a59aca !important;
+    color: #454545;
+    margin: 0;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Navigation Styles */
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #6b5b95;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* Heading Styles */
+h1,
+h2 {
+    color: #6b5b95;
+}
+
+/* Button Styles */
+.btn-purple {
+    background-color: #8e44ad;
+    color: #fff;
+}
+
+.btn-purple-dark {
+    background-color: #6c3483;
+    color: #fff;
+}
+
+.btn-purple-light {
+    background-color: #5b2c6f;
+    color: #fff;
+}
+
+/* Button Hover Styles */
+.btn-purple:hover {
+    background-color: #6b5b95;
+}
+
+.btn-purple-dark:hover {
+    background-color: #482c58;
+}
+
+.btn-purple-light:hover {
+    background-color: #3f1f4b;
+}
+
+/* Other Styles */
+.signature {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+/* About Me Styles */
+.qna-item {
+    margin-bottom: 20px;
+}
+
+.qna-question {
+    font-weight: bold;
+}
+
+.qna-answer {
+    margin-top: 10px;
+}
